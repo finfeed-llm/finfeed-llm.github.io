@@ -2,11 +2,17 @@ name: Daily news scrape
 
 on:
   schedule:
-    # GitHub cron is UTC and has no DST awareness, so we fire at both
-    # 14:00 UTC (= 9am CDT, summer) and 15:00 UTC (= 9am CST, winter).
-    # A guard step below only proceeds when it is actually 9am in Texas.
-    - cron: "0 14 * * *"
-    - cron: "0 15 * * *"
+    # GitHub cron is UTC, best-effort, and has no DST awareness. We fire at a
+    # few off-peak minutes (avoiding the congested top-of-hour) to dodge
+    # GitHub's scheduler delays/drops, and add a midday safety net. The gate
+    # below makes the job idempotent: it updates at most once per Texas day,
+    # the first qualifying run wins, and a delayed run still works.
+    #   14:23 UTC = 9:23 CDT (summer 9am-ish) / 8:23 CST (winter, gated out)
+    #   15:23 UTC = 10:23 CDT (summer, no-op) / 9:23 CST (winter 9am-ish)
+    #   17:23 UTC = midday safety net in case both morning ticks were dropped
+    - cron: "23 14 * * *"
+    - cron: "23 15 * * *"
+    - cron: "23 17 * * *"
   workflow_dispatch: {}   # allow manual "Run workflow" from the Actions tab
 
 permissions:
@@ -22,21 +28,31 @@ jobs:
     env:
       TZ: America/Chicago
     steps:
-      - name: Is it 9am in Texas?
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Should we update today?
         id: gate
         run: |
+          echo "Texas time now: $(date)"
+          today_iso="$(date +%F)"          # e.g. 2026-06-02 (Central)
           hour="$(date +%H)"
-          echo "Local Texas time: $(date)"
-          if [ "$hour" = "09" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          echo "today_iso=$today_iso hour=$hour event=${{ github.event_name }}"
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run — go."
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          elif [ "$(date +'%Y-%m-%d')" = "$today_iso" ] && \
+               grep -q "\"iso\": \"$today_iso\"" data/news.json 2>/dev/null; then
+            echo "Already updated today ($today_iso) — skip."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          elif [ "$((10#$hour))" -ge 9 ]; then
+            echo "It's $hour:xx Central (>= 9am) and not done yet — go."
             echo "go=true" >> "$GITHUB_OUTPUT"
           else
-            echo "Not 9am Central (hour=$hour) — skipping."
+            echo "Before 9am Central (hour=$hour) — wait for a later tick."
             echo "go=false" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: Checkout
-        if: steps.gate.outputs.go == 'true'
-        uses: actions/checkout@v4
 
       - name: Set up Python
         if: steps.gate.outputs.go == 'true'
