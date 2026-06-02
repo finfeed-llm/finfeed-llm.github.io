@@ -7,6 +7,7 @@
   <meta name="description" content="A clean daily feed of top market headlines. Titles only, no noise." />
   <meta name="theme-color" content="#0b0f17" />
 
+  <link rel="alternate" type="application/rss+xml" title="FinFeed RSS" href="./llm.xml" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="./icons/icon-192.png" />
@@ -49,7 +50,10 @@
 
   <footer class="footer">
     <span>Source: Finviz · Headlines only</span>
-    <a href="https://github.com/finfeed-llm/finfeed-llm.github.io" target="_blank" rel="noopener">GitHub</a>
+    <span class="foot-links">
+      <a href="./llm.xml">RSS</a>
+      <a href="https://github.com/finfeed-llm/finfeed-llm.github.io" target="_blank" rel="noopener">GitHub</a>
+    </span>
   </footer>
 
   <script src="./app.js"></script>

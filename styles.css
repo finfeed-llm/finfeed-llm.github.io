@@ -202,3 +202,4 @@ body {
 }
 .footer a { color: var(--text-dim); text-decoration: none; }
 .footer a:hover { color: var(--text); }
+.foot-links { display: flex; gap: 16px; }

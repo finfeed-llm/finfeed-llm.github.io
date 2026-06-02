@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FinFeed — Market Headlines</title>
+    <link>https://finfeed-llm.github.io/</link>
+    <atom:link href="https://finfeed-llm.github.io/llm.xml" rel="self" type="application/rss+xml"/>
+    <description>Top market headlines (titles only), updated daily. Source: Finviz.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Jun 2026 03:52:41 +0000</lastBuildDate>
+    <generator>FinFeed build_rss.py</generator>
+    <item>
+      <title>Aluminum Advances to Four-Year High on Tighter Global Market</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Aluminum Advances to Four-Year High on Tighter Global Market</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-0</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Indian shares to open lower as Iran war, fund outflows continue to weigh</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Indian shares to open lower as Iran war, fund outflows continue to weigh</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-1</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>General Mills to Sell Mainland China Häagen-Dazs Ice-Cream Shops to Local Tea Brand Ningji</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>General Mills to Sell Mainland China Häagen-Dazs Ice-Cream Shops to Local Tea Brand Ningji</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-2</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>China’s Yuan Rises to Highest Level Against Basket Since 2022</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>China’s Yuan Rises to Highest Level Against Basket Since 2022</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-3</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>South Korea Overtakes India as World’s Sixth-Largest Stock Market</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>South Korea Overtakes India as World’s Sixth-Largest Stock Market</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-4</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Short seller Andrew Left found guilty of securities fraud</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Short seller Andrew Left found guilty of securities fraud</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-5</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Billionaire Kazakh Brokerage CEO Gets SEC Enforcement Warning</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Billionaire Kazakh Brokerage CEO Gets SEC Enforcement Warning</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-6</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HPE stock soars after record quarter on AI boom</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>HPE stock soars after record quarter on AI boom</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-7</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>US stock futures slip as US-Iran tensions weigh on AI optimism</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>US stock futures slip as US-Iran tensions weigh on AI optimism</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-8</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prominent Short Seller Andrew Left Convicted of Fraud</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Prominent Short Seller Andrew Left Convicted of Fraud</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-9</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Congo Reopens Main Airport in Ebola Epicenter as Officials Brace for Long Outbreak</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Congo Reopens Main Airport in Ebola Epicenter as Officials Brace for Long Outbreak</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-10</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Job seekers are using ‘AI role-play’ to negotiate salary. Here’s how to do it.</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Job seekers are using ‘AI role-play’ to negotiate salary. Here’s how to do it.</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-11</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asia stocks skittish as Middle East anxiety offsets AI optimism</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Asia stocks skittish as Middle East anxiety offsets AI optimism</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-12</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Short Seller Andrew Left Found Guilty of Securities Fraud</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Short Seller Andrew Left Found Guilty of Securities Fraud</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-13</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>S&amp;P 500 Futures Dip With No Iran Deal, Oil Steady: Markets Wrap</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>S&amp;P 500 Futures Dip With No Iran Deal, Oil Steady: Markets Wrap</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-14</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>US jury finds investor Andrew Left guilty of securities fraud, Business Insider reports</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>US jury finds investor Andrew Left guilty of securities fraud, Business Insider reports</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-15</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SEC defends Musk settlement over Twitter, saying it reflects 'compromises'</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>SEC defends Musk settlement over Twitter, saying it reflects 'compromises'</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-16</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investors are piling into bullish options bets — another sign that the stock market is getting overheated</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Investors are piling into bullish options bets — another sign that the stock market is getting overheated</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-17</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>As Micron’s stock blows past $1,000, Wall Street sees more gains in store</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>As Micron’s stock blows past $1,000, Wall Street sees more gains in store</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-18</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Berkshire, under new CEO Greg Abel, invests $16.8 billion in two days</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Berkshire, under new CEO Greg Abel, invests $16.8 billion in two days</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-19</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stock futures slip after all three major indexes close at new records</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Stock futures slip after all three major indexes close at new records</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-20</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gold Holds Fall as Traders Digest Confusion Over US-Iran Talks</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Gold Holds Fall as Traders Digest Confusion Over US-Iran Talks</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-21</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How 'confused' AI rollout hurts firms and baffles staff</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>How 'confused' AI rollout hurts firms and baffles staff</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-22</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>China Robotics Firms Line Up IPOs to Pitch Next Phase of AI</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>China Robotics Firms Line Up IPOs to Pitch Next Phase of AI</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-23</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI’s next legal battle is against states who claim its models are dangerous</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>OpenAI’s next legal battle is against states who claim its models are dangerous</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-24</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why many big oil tankers may not return once Strait of Hormuz reopens</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Why many big oil tankers may not return once Strait of Hormuz reopens</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-25</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alphabet asks shareholders to foot an $80 billion bill for AI expansion</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Alphabet asks shareholders to foot an $80 billion bill for AI expansion</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-26</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Oil Holds Biggest Gain in a Month on US-Iran Talk Uncertainty</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Oil Holds Biggest Gain in a Month on US-Iran Talk Uncertainty</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-27</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Australian Wheat Crop Expected to Drop 26% on Weather, War Costs</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Australian Wheat Crop Expected to Drop 26% on Weather, War Costs</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-28</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elliott Takes Stake in Miner Northern Star, Pushing for Review</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Elliott Takes Stake in Miner Northern Star, Pushing for Review</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-29</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jensen Huang says Nvidia's new RTX Spark chip will reinvent the PC</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Jensen Huang says Nvidia's new RTX Spark chip will reinvent the PC</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-30</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>McDonald’s unveils new growth strategy win back customers</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>McDonald’s unveils new growth strategy win back customers</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-31</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CFTC Awards Five Whistleblowers $8 Million for Enforcement Tips</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>CFTC Awards Five Whistleblowers $8 Million for Enforcement Tips</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-32</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the AI trade is remaking the global stock-market order</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>How the AI trade is remaking the global stock-market order</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-33</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>This 83-Year-Old Investor Is Elon Musk’s Biggest Fanboy</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>This 83-Year-Old Investor Is Elon Musk’s Biggest Fanboy</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-34</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rekindled IPOs Fuel Private Equity Hopes for Exit Revival</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Rekindled IPOs Fuel Private Equity Hopes for Exit Revival</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-35</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TRADING DAY Talks + tech = boom!</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>TRADING DAY Talks + tech = boom!</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-36</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can the OpenAI and Anthropic IPOs Live Up to Expectations?</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Can the OpenAI and Anthropic IPOs Live Up to Expectations?</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-37</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japan Faces Shortage of Bananas as Middle East Impact Spreads</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>Japan Faces Shortage of Bananas as Middle East Impact Spreads</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-38</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Iran Clashes Send Oil Prices and Bond Yields Surging</title>
+      <link>https://finfeed-llm.github.io/</link>
+      <description>New Iran Clashes Send Oil Prices and Bond Yields Surging</description>
+      <guid isPermaLink="false">finfeed-2026-06-01-39</guid>
+      <category>June 1</category>
+      <pubDate>Mon, 01 Jun 2026 14:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

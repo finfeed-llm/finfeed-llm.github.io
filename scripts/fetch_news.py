@@ -69,6 +69,7 @@ def load_existing() -> dict:
 def main() -> int:
     now = datetime.now(TZ) if TZ else datetime.now()
     today = date_label(now)
+    today_iso = now.strftime("%Y-%m-%d")
 
     titles = fetch_titles()
     if not titles:
@@ -77,7 +78,7 @@ def main() -> int:
 
     data = load_existing()
     days = [d for d in data.get("days", []) if d.get("date") != today]
-    days.insert(0, {"date": today, "items": titles})
+    days.insert(0, {"date": today, "iso": today_iso, "items": titles})
     days = days[:N_DAYS]
 
     data = {

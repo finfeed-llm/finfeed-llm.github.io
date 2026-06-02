@@ -1,9 +1,10 @@
 {
-  "updated": "2026-06-01T22:46:07-05:00",
+  "updated": "2026-06-01T22:52:41-05:00",
   "source": "Finviz",
   "days": [
     {
       "date": "June 1",
+      "iso": "2026-06-01",
       "items": [
         "Aluminum Advances to Four-Year High on Tighter Global Market",
         "Indian shares to open lower as Iran war, fund outflows continue to weigh",

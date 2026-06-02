@@ -1,0 +1,45 @@
+name: Build LLM RSS feed
+
+on:
+  # Run right after the daily news scrape finishes, so the RSS is built from
+  # the freshly committed data/news.json (no race with that job's push).
+  workflow_run:
+    workflows: ["Daily news scrape"]
+    types: [completed]
+  workflow_dispatch: {}   # allow manual "Run workflow" from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-llm
+  cancel-in-progress: false
+
+jobs:
+  rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main          # always build from the latest committed data
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build RSS feed
+        run: python scripts/build_rss.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add llm llm.xml
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "llm: rebuild RSS feed $(date +'%B %-d')"
+            git push
+          fi
