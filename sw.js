@@ -1,5 +1,6 @@
-// FinFeed service worker — app shell cached, news fetched network-first.
-const CACHE = 'finfeed-v1';
+// FinFeed service worker — network-first so online users always get the
+// latest UI and data; cache is only a fallback for offline.
+const CACHE = 'finfeed-v2';
 const SHELL = [
   './',
   './index.html',
@@ -22,22 +23,17 @@ self.addEventListener('activate', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
-  const url = new URL(e.request.url);
-
-  // Always try the network first for the news data, fall back to cache offline.
-  if (url.pathname.endsWith('/data/news.json')) {
-    e.respondWith(
-      fetch(e.request)
-        .then((res) => {
+  if (e.request.method !== 'GET') return;
+  // Network-first: serve fresh content when online, fall back to cache offline.
+  e.respondWith(
+    fetch(e.request)
+      .then((res) => {
+        if (res && res.status === 200 && res.type === 'basic') {
           const copy = res.clone();
           caches.open(CACHE).then((c) => c.put(e.request, copy));
-          return res;
-        })
-        .catch(() => caches.match(e.request))
-    );
-    return;
-  }
-
-  // App shell: cache-first.
-  e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request)));
+        }
+        return res;
+      })
+      .catch(() => caches.match(e.request).then((hit) => hit || caches.match('./index.html')))
+  );
 });

@@ -33,7 +33,7 @@ HEADERS = {
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "news.json"
 MAX_TITLES = 40   # how many top headlines to keep per day
-N_DAYS = 7        # how many days of history to retain
+N_DAYS = 90       # how many days of history to retain (fills the calendar)
 
 
 def fetch_titles() -> list[str]:

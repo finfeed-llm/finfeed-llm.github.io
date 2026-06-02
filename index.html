@@ -40,12 +40,50 @@
     </div>
   </header>
 
-  <main id="feed" class="feed" aria-live="polite">
-    <div class="skeleton-wrap" id="skeleton">
-      <div class="sk-date"></div>
-      <div class="sk-line"></div><div class="sk-line"></div><div class="sk-line"></div>
-      <div class="sk-line short"></div>
-    </div>
+  <nav class="tabs" role="tablist">
+    <button class="tab is-active" data-view="feed" role="tab">Feed</button>
+    <button class="tab" data-view="calendar" role="tab">Calendar</button>
+  </nav>
+
+  <main class="container" aria-live="polite">
+    <!-- Feed view -->
+    <section id="view-feed" class="view">
+      <div class="skeleton-wrap" id="skeleton">
+        <div class="sk-date"></div>
+        <div class="sk-line"></div><div class="sk-line"></div><div class="sk-line"></div>
+        <div class="sk-line short"></div>
+      </div>
+    </section>
+
+    <!-- Calendar view -->
+    <section id="view-calendar" class="view" hidden>
+      <div class="cal-head">
+        <button id="cal-prev" class="cal-nav" aria-label="Previous month">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+               stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <span id="cal-title" class="cal-title"></span>
+        <button id="cal-next" class="cal-nav" aria-label="Next month">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+               stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+      <div class="cal-weekdays">
+        <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+      </div>
+      <div id="cal-grid" class="cal-grid"></div>
+      <p class="cal-hint">Tap a highlighted day to read its headlines.</p>
+    </section>
+
+    <!-- Single-day view -->
+    <section id="view-day" class="view" hidden>
+      <button id="day-back" class="day-back">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+             stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        Calendar
+      </button>
+      <div id="day-content"></div>
+    </section>
   </main>
 
   <footer class="footer">
